@@ -1,21 +1,21 @@
 module.exports = function(grunt) {
 
-	grunt.initConfig({
+  grunt.initConfig({
 		
-  	sass: {
-    	options: {
-      	sourceMap: true
-	     	},
-    	dist: {
-      	files: {
-        	'css/style.css': 'sass/style.sass'
-	     	}
-    	}
-  	},
+    sass: {
+      options: {
+        sourceMap: true
+      },
+      dist: {
+        files: {
+          'css/style.css': 'sass/style.sass'
+        }
+       }
+    },
 		
-  	jshint: {
-    	all: ['js/*.js']
-  	},
+    jshint: {
+      all: ['js/*.js']
+    },
 
     watch: {
       css: {
@@ -27,7 +27,7 @@ module.exports = function(grunt) {
       },
     },
 		
-	});
+  });
   
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-jshint');
