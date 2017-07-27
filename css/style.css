@@ -22,7 +22,7 @@
     font-size: 20px;
     border: none;
     cursor: pointer;
-    transition: 0.3s; }
+    transition: .3s; }
     .jumbotron button:hover {
       background: #7e9fed; }
   .jumbotron a {
