@@ -22,7 +22,7 @@
     font-size: 20px;
     border: none;
     cursor: pointer;
-    transition: .3s; }
+    transition: 0.3s; }
     .jumbotron button:hover {
       background: #7e9fed; }
   .jumbotron a {
@@ -31,9 +31,14 @@
 
 .gallery {
   margin: 10px auto;
-  padding: 0 7px; }
+  padding: 0 7px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
   .gallery img {
-    width: 50vh; }
+    width: 50vh;
+    height: 200px;
+    padding: 5px; }
     .gallery img:hover {
       opacity: 0.8;
       cursor: pointer; }
